@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honors and Awards</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5dc; /* Soft beige background */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e3d58; /* Deep blue background */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card {
+            background-color: #1e3d58; /* Blue card background */
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            flex: 1;
+        }
+
+        .card-content h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .card-content a {
+            color: #f5f5dc;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .card img {
+                width: 100%;
+            }
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Honors and Awards
+</header>
+
+<section class="container">
+    <!-- Award 1 -->
+    <div class="card">
+        <img src="intern25e2ef95-5444-4f52-b9c3-80a3ca22b463.jpg" alt="Internship Certificate">
+        <div class="card-content">
+            <h3>Internship Certificate</h3>
+            <p>
+                Awarded by <a href="https://www.facebook.com/ULTH.UOL/" target="_blank">University of Lahore Teaching Hospital</a> 
+                for successfully completing an internship program.
+            </p>
+        </div>
+    </div>
+
+    <!-- Award 2 -->
+    <div class="card">
+        <img src="gsea0e538f9a-d356-4f93-9ce1-31a884b1be71.jpg" alt="National Science Competition Certificate">
+        <div class="card-content">
+            <h3>National Science Competition Certificate</h3>
+            <p>
+                Received from <a href="https://www.facebook.com/gseapk/" target="_blank">GSEA</a> for excellence 
+                in the National Science Competition.
+            </p>
+        </div>
+    </div>
+</section>
+<footer>
+    &copy; 2025 Mahnoor Shahbaz. All Rights Reserved.
+</footer>
+</body>
+</html>

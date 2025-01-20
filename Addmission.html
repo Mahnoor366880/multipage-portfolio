@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>admission</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: rgb(71, 3, 3);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 10;
+            }
+            .container {
+                background-color: white;
+                padding: 10px;
+                padding-top: 1600px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                width: 1000px;
+                text-decoration-color: rgb(138, 24, 24);
+                text color: 
+                margin: grid-auto-flow: border: display: ;;;; ;
+               
+            }
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+            input[type="text"],
+            input[type="password"],
+            input[type="email"] {
+                width: 95%;
+                padding: 5px;
+                margin: 5px 0;
+                border: 5px solid #ccc;
+                border-radius: 5px;
+            }
+            input[type="submit"] {
+                background-color: #531313;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100%;
+            }
+            input[type="submit"]:hover {
+                background-color: #030503;
+            }
+            .forgot-password {
+                text-align: center;
+                margin-top: 10px;
+            }
+            .button
+            {
+                background-color: #4b0e0e;
+            color: white;
+                padding: 10px 20px;
+                margin: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+            .button:hover {
+                background-color: #0a0302;
+            }
+            
+        
+        </style>
+    </head> <div class="container"><center>
+        <strong><h1>Admission Form</h1></strong> <br>
+        <img src="tec.html.jpg" width="200" height="200"> <br>
+    </center>
+    <fieldset>
+        <legend><b>Personal Information:</b></legend> <br>
+        <br>
+        <b>First Name:</b> <br>
+        <input type="text" name="Firstname" required placeholder="Firstname" > <br>
+        <b>Last Name:</b> <br>
+        <input type="text" name="Lastname" required placeholder="Lastname"> <br>
+        <b>Gender:</b> <br>
+             <br>
+             <input type="radio" id="male" name="Gender" value="male" required> Male <br>
+             <input type="radio" id="female" name="Gender" value="female" required> Female <br>
+             
+             <br>
+             <b>Father's Name:</b> <br>
+        <input type="text" name="Father's name" required placeholder="Father's name"> <br>
+        <b>CNIC:</b> <br>
+        <input type="text" name="CNIC" required placeholder="xxxxx-xxxxxx-x"> <br>
+        <b>Contact Number:</b> <br>
+        <input type="text" name="Contact" required
+    placeholder="+92xxx-xxxxxxx"> <br>
+    <br>
+    
+    <b><label for="birthdaytime">Date of Birth:</label></b>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"> <br>
+    <br>
+     <b>Postal Address:</b> <br>
+     <br>
+     <b>Location:</b> <br>
+     <input type="text" name="Location" placeholder="Complete Address"><br>
+     <b>City:</b>
+     <input type="text" name="city" placeholder="City"><br>
+     <b>Province:</b>
+     <input type="text" name="Province" placeholder="Province"> <br>
+     <b>Country:</b>
+     <input type="text" name="Country" placeholder="Country"> <br>
+     <b>Postal Code:</b>
+     <input type="text" name="Postal code" placeholder="Postal code"> <br>
+    
+    </fieldset> <br>
+    <br>
+    <fieldset>
+    <legend><b>Academic Information:</b></legend> <br>
+    
+    <b><label for="University/Institute"> University/Institute: </label></b>
+      <select id="University/Institute" name="University/Institute" required>
+        <option value="" disabled selected> University/Institute </option>
+        
+        <option value="University Of Lahore"> University of Lahore</option>
+        <option value="University of Management and technology"> University of management and technlogy</option>
+        <option value="Superior college and university">superior college and University</option>
+        <option value="BNU"> BNU</option>
+        <option value="LUMS"> LUMS</option>
+        <option value="University of Sargodha">University of Sargodha</option>
+        <option value="Punjab Group of Colleges">Punjab Group of Colleges</option>
+        <option value="Unique group of institutions">Unique Group Of institutions</option>
+        <option value="Kips College">Kips College</option>
+        <option value="Other"> Other</option>
+    </select>
+    <b><label for="Degree"> Degree: </label></b>
+      <select id="Degree" name="Degree" required>
+        <option value="" disabled selected> Degree </option>
+    
+        <option value="PHD">PHD</option>
+        <option value="Masters">Masters</option>
+        <option value="Bachelors">Bachelors</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Matriculation/O-Levels">Matriculation/O-Levels</option>
+    </select> <br>
+    <br>
+    
+    <b>Major:</b>
+    <input type="text" name="Major" placeholder="Major">
+    <b>Percentage/CGPA:</b>
+    <input type="text" name="CGPA">
+    </fieldset> <br>
+    <br>
+    
+    <fieldset>
+        <legend><b>Work Experience:</b></legend> <br>
+        <b>Company:</b>
+        <input type="text" name="Company" placeholder="Company">
+        <b>Designation:</b>
+        <input type="text" name="Designation" placeholder="Designation"> <br>
+        <br>
+        <b> <label for="Date"> From:</label>
+            <input type="datetime-local" id="year" name="year"></b> 
+            <b> <label for="Date"> To:</label>
+                <input type="datetime-local" id="year" name="year"></b> <br>
+                <br>
+                <b>Job description:</b>
+                <input type="text" name="Job description" placeholder="Job description">
+    
+    </fieldset> <br>
+    <fieldset>
+        <legend><b>Admission Information:</b></legend> <br>
+        <b><label for="Course"> Course*: </label></b>
+      <select id="Course" name="Course" required>
+        <option value="" disabled selected> course </option>
+            <option value="SEO">SEO</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+            <option value="Web Designing">Web Designing</option>
+            <option value="GEN AI">GEN AI</option>
+            <option value="Video Editing">Video Editing</option>
+        </select>
+        <b> <label for="Date"> Starting Date:</label>
+            <input type="datetime-local" id="year" name="year"></b> <br>
+            <br>
+        <br>
+        <br>
+    
+        <b>Personal Interest:</b> <br>
+        <input type="text" name=" Personal Interest" placeholder="Personal Interest">
+    </fieldset> <br>
+    <fieldset>
+        <legend><b>Declaration:</b></legend> <br>
+        I hereby declare that the information provided above is true and correct to the best of my knowledge. I understand that any false information provided may result in the cancellation of my admission of the course. <br>
+        <br>
+        <input type="checkbox" id="I agree" name="Terms and Conditions" value="I agree"> I agree to Terms and Conditions <br>
+    
+    </fieldset>
+    <br>
+    <br>
+    <center><button class="button" onclick="window.location.href='submission.html'">Submit</button> <br></center>
+    </div>
+    <body>
+        
+    </body>
+    </html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Experience</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5dc; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e3d58; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background-color: rgb(195, 195, 226); 
+            color: rgb(5, 5, 5);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            width: 480px;
+            height: 180px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: x-large;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1.2em;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        .card a {
+            color: #1e3d58;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            color: #e74c3c;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 90%;
+                margin: 15px 0;
+            }
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+            font-size: 1em;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Work Experience
+    </header>
+
+    <section class="container">
+        <div class="card">
+            <h3>As Nutritionist Intern</h3>
+            <p>at <br> <a href="http://ssthlhr.com.pk/">Social Security Teaching Hospital</a></p>
+        </div>
+        <div class="card">
+            <h3>As Nutritionist Intern</h3>
+            <p>at <br> <a href="https://www.mayohospital.gop.pk/">Mayo Hospital Lahore</a></p>
+        </div>
+        <div class="card">
+            <h3>As Nutritionist Intern</h3>
+            <p>at <br> <a href="https://www.fjmu.edu.pk/sir-ganga-ram-hospital/">Sir Ganga Ram Hospital Lahore</a></p>
+        </div>
+        <div class="card">
+            <h3>As Nutritionist Intern</h3>
+            <p>at <br> <a href="https://www.facebook.com/ULTH.UOL/">University of Lahore Teaching Hospital</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Mahnoor Shahbaz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
